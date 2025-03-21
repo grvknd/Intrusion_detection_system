@@ -11,7 +11,7 @@ This project implements a **Real-Time Intrusion Detection System (IDS)** using a
 
 ---
 
-1. Model Training (`train_model.py`)**
+1. Model Training (`model.py`)**
 
  **Training Script Description**
 The script loads the **KDD Cup 99** dataset, processes it, and trains a **Random Forest Classifier**. Key tasks include:
