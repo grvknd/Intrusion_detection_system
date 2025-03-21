@@ -30,10 +30,14 @@ python train_model.py
 ```
 Output Files
 ids_model.pkl – Trained Random Forest model.
+
 scaler.pkl – Standard Scaler for real-time traffic processing.
 
 
-2.Real-Time Detection Script Description
+2.Real-Time Detection Script 
+
+Description
+
 This script captures live network traffic using scapy and processes the packets in real time. Key tasks include:
 
 Sniffing network traffic on the IP layer.
