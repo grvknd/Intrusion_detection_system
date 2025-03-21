@@ -48,6 +48,7 @@ def process_packet(packet):
 
 # Sniff packets in real time
 print("Listening for real-time traffic... Press Ctrl+C to stop.")
-sniff(filter="ip", prn=process_packet, store=False, count=5)
+sniff(filter="ip", prn=process_packet, store=False, count=5)#increase the count as per requirement
+
 
 
