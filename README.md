@@ -22,7 +22,7 @@ The script loads the **KDD Cup 99** dataset, processes it, and trains a **Random
 - Splitting data into training and testing sets.
 - Training the Random Forest model with `100` estimators.
 - Saving the trained model and scaler as `.pkl` files using `joblib`.
- ▶️ **Usage**
+  **Usage**
 Run the following command to train and save the model:
 
 ```bash
